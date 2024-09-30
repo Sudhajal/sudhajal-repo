@@ -50,12 +50,16 @@ const ProductInfo: React.FC = () => {
           <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col w-full max-md:mt-5 max-md:max-w-full">
               <div className="flex overflow-hidden flex-col justify-center items-center px-14 bg-white rounded-3xl border border-sky-500 border-solid aspect-square shadow-[0px_3px_25px_rgba(0,173,237,0.3)] max-md:px-5 max-md:mr-1">
-                <img
-                  loading="lazy"
-                  src="/product1.png"
-                  className="object-contain w-full aspect-[0.81]"
-                  alt="Main product img"
-                 />
+              <div className="relative w-full aspect-[0.81]">
+  <Image
+    loading="lazy"
+    src="/product1.png"
+    className="object-contain"
+    alt="Main product img"
+    fill // Use fill layout to cover the parent container
+  />
+</div>
+
               </div>
               <div className="flex gap-2 mt-3 text-xs text-black whitespace-nowrap">
                 <Image

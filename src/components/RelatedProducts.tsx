@@ -16,14 +16,16 @@ const RelatedProduct: React.FC<RelatedProductProps> = ({
   return (
     <div className="flex overflow-hidden flex-col flex-1 items-center pb-9 bg-white rounded-lg">
       <div className="flex overflow-hidden flex-col self-stretch bg-white rounded-lg">
-        <img
-          loading="lazy"
-          src={imgSrc}
-          className="object-contain z-10 mt-0 mb-0 w-full aspect-[1.52] max-md:mb-2.5"
-          alt={title}
-       
-          
-        />
+      <div className="relative w-full aspect-[1.52] max-md:mb-2.5">
+  <Image
+    loading="lazy"
+    src={imgSrc}
+    className="object-contain z-10"
+    alt={title}
+    fill // Fills the parent container
+  />
+</div>
+
       </div>
       <div className="mt-6 text-lg font-bold text-center text-zinc-800 w-[279px]">
         {title}

@@ -11,13 +11,13 @@ interface Product {
 const products: Product[] = [
   {
     imageSrc:
-      "Group 7611.png",
+      "/Group 7611.png",
     title: "5 Filter Purifier With UV, UF, RO and sediment filters",
     description: "Get free installation\n1yr service warranty free",
   },
   {
     imageSrc:
-      "Group 7615.png",
+      "/Group 7615.png",
     title: "5 Filter Purifier With UV, UF, RO and sediment filters",
     description: "Get free installation\n1yr service warranty free",
   },

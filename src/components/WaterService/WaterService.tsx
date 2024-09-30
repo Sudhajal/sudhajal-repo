@@ -30,21 +30,25 @@ export const WaterService: React.FC<WaterServiceProps> = () => {
           </div>
         </div>
         <ImageComponent
-          src="/blob.png"
-          alt="Water service illustration"
-          className="object-contain w-full lg:w-[50%] mt-6 lg:mt-0 animate-blob"
-          
-        />
+  src="/blob.png"
+  alt="Water service illustration"
+  className="object-contain w-full lg:w-[50%] mt-6 lg:mt-0 animate-blob"
+  width={500} // Replace with actual width
+  height={300} // Replace with actual height
+/>
       </div>
 
       {/* Water Science Section */}
       <div className="mt-10 flex flex-col lg:flex-row gap-5 items-center">
         <div className="flex justify-center lg:justify-end w-full lg:w-6/12">
-          <ImageComponent
-            src="/buble.png"
-            alt="Water science illustration"
-            className="object-contain w-32 lg:w-[153px]"
-          />
+        <ImageComponent
+  src="/buble.png"
+  alt="Water science illustration"
+  className="object-contain w-32 lg:w-[153px]"
+  width={128}   // Set the width based on your design
+  height={128}  // Set the height based on your design
+/>
+
         </div>
         <div className="flex flex-col w-full lg:w-6/12 mt-6 lg:mt-0">
           <div className="flex flex-wrap justify-center items-center">

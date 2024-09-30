@@ -19,12 +19,15 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     <div className="flex flex-wrap gap-5 items-start min-w-[240px] w-[502px] max-md:max-w-full">
-      <img
-        loading="lazy"
-        src={imageSrc}
-        alt={title}
-        className="object-contain grow shrink aspect-[0.81] min-w-[240px] w-[195px]"
-      />
+    <Image
+  loading="lazy"
+  src={imageSrc}
+  alt={title}
+  className="object-contain grow shrink aspect-[0.81] min-w-[240px] w-[195px]"
+  width={195}  // Specify width
+  height={240}  // Specify height (calculated or defined based on your aspect ratio)
+/>
+
       <div className="flex flex-wrap grow shrink gap-24 items-end w-48">
         <div className="flex flex-col min-w-[240px] text-zinc-800 w-[242px]">
           <h3 className="text-xl font-bold">{title}</h3>
