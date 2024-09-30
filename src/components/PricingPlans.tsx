@@ -1,6 +1,7 @@
 
 import React from "react";
 import PricingCard from "./PricingCard";
+import Image from "next/image";
 
 interface PricingPlan {
   title: string;
@@ -93,7 +94,7 @@ const PricingPlans: React.FC = () => {
           </p>
         </div>
         <form className="flex flex-1 gap-2 items-center py-2 pl-3 pr-10 rounded min-h-[40px]">
-          <img
+          <Image
             loading="lazy"
             src="/arrow.svg"
             alt=""

@@ -1,5 +1,6 @@
 
 import React from "react";
+import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
     Connect Us
 </a>
         </div>
-        <img
+        <Image
           loading="lazy"
           src="Color.png"
           alt="Water purification system"

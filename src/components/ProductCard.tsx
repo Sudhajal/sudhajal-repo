@@ -3,6 +3,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 interface ProductCardProps {
@@ -18,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     <div className="flex flex-wrap gap-5 items-start min-w-[240px] w-[502px] max-md:max-w-full">
-      <img
+      <Image
         loading="lazy"
         src={imageSrc}
         alt={title}
@@ -51,7 +52,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
               console.log(`${title} added to cart`);
             }}
           >
-            <img
+            <Image
               loading="lazy"
               src="/cart.svg"
               alt="Cart icon"

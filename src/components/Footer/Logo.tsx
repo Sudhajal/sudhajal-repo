@@ -10,7 +10,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ src, companyName, tagline }) => {
   return (
     <div className="flex flex-col self-stretch my-auto h-[131px] w-[169px]">
-      <img
+      <Image
         loading="lazy"
         src="Group 7610.png"
         alt={`${companyName} logo`}

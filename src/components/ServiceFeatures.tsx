@@ -5,7 +5,7 @@ import React from "react";
 const ServiceFeatures: React.FC = () => {
   return (
     <div className="flex flex-wrap gap-40 justify-center items-center self-end mt-12 max-md:mt-10 max-md:max-w-full">
-      <img
+      <Image
         loading="lazy"
         src="buble.png"
         alt="Water science illustration"

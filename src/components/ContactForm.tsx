@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import React from "react";
 
 const ContactForm: React.FC = () => {
@@ -101,7 +102,7 @@ const ContactForm: React.FC = () => {
               </form>
             </div>
           </div>
-          <img
+          <Image
             loading="lazy"
             src="Image.png"
             alt="Contact illustration"

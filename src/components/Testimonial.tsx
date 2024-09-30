@@ -8,7 +8,7 @@ const Testimonial: React.FC = () => {
       
       {/* Testimonial Content */}
       <div className="flex z-10 flex-col self-stretch my-auto min-w-[240px] w-full md:w-[535px]">
-        <img
+        <Image
           loading="lazy"
           src="apostrophie.png"
           alt="Quote icon"
@@ -27,7 +27,7 @@ const Testimonial: React.FC = () => {
       {/* Image and Person Info */}
       <div className="relative z-10 flex flex-col self-stretch my-auto text-white rounded-2xl min-w-[240px] w-full md:w-[469px]">
         <div className="relative flex flex-col pt-52 md:pt-20 w-full rounded-2xl min-h-[281px]">
-          <img
+          <Image
             loading="lazy"
             src="BG.png"
             alt="Sachin Bhosle"

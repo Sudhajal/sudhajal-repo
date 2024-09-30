@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface PricingCardProps {
   title: string;
@@ -56,7 +57,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
               h-[27px] w-[27px] rounded-full transition-all duration-300
               bg-gray-50 hover:bg-violet-100`}
             >
-              <img
+              <Image
                 loading="lazy"
                 src={`http://b.io/ext_${11 + index}-`}
                 alt=""

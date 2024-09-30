@@ -13,7 +13,7 @@ const ProductInfo: React.FC = () => {
             <a href="/" className="grow rotate-[1.6081230200044232e-16rad]">
               Home
             </a>
-            <img
+            <Image
               loading="lazy"
               src="/rightarrow.svg"
               className="object-contain shrink-0 my-auto w-5 aspect-square"
@@ -26,7 +26,7 @@ const ProductInfo: React.FC = () => {
               >
                 Shop (All)
               </a>
-              <img
+              <Image
                 loading="lazy"
                 src="/rightarrow.svg"
                 className="object-contain shrink-0 my-auto w-5 aspect-square"
@@ -44,7 +44,7 @@ const ProductInfo: React.FC = () => {
           <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col w-full max-md:mt-5 max-md:max-w-full">
               <div className="flex overflow-hidden flex-col justify-center items-center px-14 bg-white rounded-3xl border border-sky-500 border-solid aspect-square shadow-[0px_3px_25px_rgba(0,173,237,0.3)] max-md:px-5 max-md:mr-1">
-                <img
+                <Image
                   loading="lazy"
                   src="/product1.png"
                   className="object-contain w-full aspect-[0.81]"
@@ -52,19 +52,19 @@ const ProductInfo: React.FC = () => {
                 />
               </div>
               <div className="flex gap-2 mt-3 text-xs text-black whitespace-nowrap">
-                <img
+                <Image
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
                   alt="Product thumbnail 1"
                 />
-                <img
+                <Image
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
                   alt="Product thumbnail 2"
                 />
-                <img
+                <Image
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
@@ -89,7 +89,7 @@ const ProductInfo: React.FC = () => {
                   Send Enquiry
                 </button>
                 <button className="flex justify-center items-center px-6 py-3 rounded-3xl border-sky-500 border-solid border-[0.833px] min-h-[42px] text-zinc-800 max-md:px-5">
-                  <img
+                  <Image
                     loading="lazy"
                     src="/cart.svg"
                     className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
@@ -103,7 +103,7 @@ const ProductInfo: React.FC = () => {
                 <div className="flex gap-9 justify-center items-center">
                   <div className="flex flex-col justify-center self-stretch my-auto text-sm leading-none text-center text-neutral-900">
                     <div className="flex gap-2 items-center font-medium whitespace-nowrap">
-                      <img
+                      <Image
                         loading="lazy"
                         src="/star.svg"
                         className="object-contain shrink-0 self-stretch my-auto aspect-[4.88] w-[83px]"
@@ -113,7 +113,7 @@ const ProductInfo: React.FC = () => {
                     </div>
                     <div className="self-start mt-2">243 reviews</div>
                   </div>
-                  <img
+                  <Image
                     loading="lazy"
                     src="/line.svg"
                     className="object-contain shrink-0 self-stretch my-auto w-0"
