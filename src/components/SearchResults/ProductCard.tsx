@@ -23,7 +23,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           <div className="text-lg font-semibold tracking-tight leading-none">
             ₹{price}
           </div>
-          <Image
+          <img
             loading="lazy"
             src={`http://b.io/ext_${9 + rating}-`}
             alt={`${rating} star rating`}

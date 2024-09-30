@@ -7,7 +7,7 @@ interface LogoImageProps {
 
 const LogoImage: React.FC<LogoImageProps> = ({ src }) => {
   return (
-    <Image
+    <img
       loading="lazy"
       src="/logo.png"
       alt="Company logo"

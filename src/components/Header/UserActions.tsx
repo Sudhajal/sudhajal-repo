@@ -81,7 +81,7 @@ const UserActions: React.FC = () => {
         className="flex justify-center items-center self-stretch px-2 my-auto bg-white bg-opacity-0 h-[42px] min-h-[41px] rounded-[31px] w-[42px]"
         aria-label="User action 2"
       >
-        <Image
+        <img
           loading="lazy"
           src="/cart.svg"
           alt="User action icon"
