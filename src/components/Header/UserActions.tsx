@@ -83,7 +83,7 @@ const UserActions: React.FC = () => {
       >
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/390a1393cfea10e03ff71d8fbf5491824bb15b6f25a6f260905e9d53c751f503?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37"
+          src="/cart.svg"
           alt="User action icon"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
         />
