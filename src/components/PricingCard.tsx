@@ -59,9 +59,11 @@ const PricingCard: React.FC<PricingCardProps> = ({
             >
               <Image
                 loading="lazy"
-                src={`http://b.io/ext_${11 + index}-`}
+                src=""
                 alt=""
                 className="object-contain aspect-square w-[13px]"
+                height={20}
+                width={13}
               />
             </div>
             <div className="flex-1 shrink self-stretch my-auto text-sm md:text-base font-medium">

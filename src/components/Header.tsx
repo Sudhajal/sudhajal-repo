@@ -35,6 +35,8 @@ const Header: React.FC = () => {
           src="Color.png"
           alt="Water purification system"
           className="object-contain aspect-[1.18] min-w-[240px] w-[545px] max-md:max-w-full"
+          width={545}
+          height={454}
         />
       </div>
     </div>

@@ -33,6 +33,7 @@ export const WaterService: React.FC<WaterServiceProps> = () => {
           src="/blob.png"
           alt="Water service illustration"
           className="object-contain w-full lg:w-[50%] mt-6 lg:mt-0 animate-blob"
+          
         />
       </div>
 

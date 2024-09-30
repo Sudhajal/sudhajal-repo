@@ -99,6 +99,8 @@ const PricingPlans: React.FC = () => {
             src="/arrow.svg"
             alt=""
             className="w-5 h-5 object-contain"
+            width={5}
+            height={5}
           />
           <label htmlFor="contactNumber" className="sr-only">
             Enter your contact number

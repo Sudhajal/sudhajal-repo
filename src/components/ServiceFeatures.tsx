@@ -1,15 +1,18 @@
 
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const ServiceFeatures: React.FC = () => {
   return (
     <div className="flex flex-wrap gap-40 justify-center items-center self-end mt-12 max-md:mt-10 max-md:max-w-full">
-      <img
+      <Image
         loading="lazy"
         src="buble.png"
         alt="Water science illustration"
         className="object-contain shrink-0 self-stretch my-auto aspect-[0.38] w-[153px]"
+        width={153}
+        height={5}
       />
       <div className="flex flex-col justify-center self-stretch my-auto min-w-[240px] w-[503px] max-md:max-w-full">
         <h2 className="text-3xl leading-none max-md:max-w-full">

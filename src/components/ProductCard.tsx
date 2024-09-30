@@ -19,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     <div className="flex flex-wrap gap-5 items-start min-w-[240px] w-[502px] max-md:max-w-full">
-      <Image
+      <img
         loading="lazy"
         src={imageSrc}
         alt={title}
@@ -57,6 +57,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
               src="/cart.svg"
               alt="Cart icon"
               className="object-contain shrink-0 self-stretch my-auto aspect-[1.04] w-[25px]"
+              width={5}
+              height={5}
             />
             <div className="flex shrink-0 self-stretch my-auto bg-white bg-opacity-0 h-[22px] w-[5px]" />
             <span>Add To Cart</span>

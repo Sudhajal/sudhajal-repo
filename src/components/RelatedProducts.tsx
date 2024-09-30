@@ -1,5 +1,6 @@
 
-import React from "react";
+import React from "react"; 
+import Image from "next/image";
 
 interface RelatedProductProps {
   imgSrc: string;
@@ -20,6 +21,8 @@ const RelatedProduct: React.FC<RelatedProductProps> = ({
           src={imgSrc}
           className="object-contain z-10 mt-0 mb-0 w-full aspect-[1.52] max-md:mb-2.5"
           alt={title}
+       
+          
         />
       </div>
       <div className="mt-6 text-lg font-bold text-center text-zinc-800 w-[279px]">
@@ -29,11 +32,13 @@ const RelatedProduct: React.FC<RelatedProductProps> = ({
         {price}
       </div>
       <button className="flex justify-center items-center px-6 py-3 mt-4 text-sm font-bold tracking-wide text-center rounded-3xl border-sky-500 border-solid border-[0.833px] min-h-[42px] text-zinc-800 max-md:px-5">
-        <img
+        <Image
           loading="lazy"
           src="/cart.svg"
           className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
           alt=""
+          width={5}
+          height={5}
         />
         <div className="flex shrink-0 self-stretch my-auto w-1 bg-white bg-opacity-0 h-[18px]" />
         <span className="self-stretch my-auto">Add To Cart</span>
@@ -49,6 +54,7 @@ const RelatedProducts: React.FC = () => {
         "/pg1.png",
       title: "Replacement 5 Filter Kit for PUREGEN PROQ5-50",
       price: "₹2450/-",
+
     },
     {
       imgSrc:
@@ -74,11 +80,13 @@ const RelatedProducts: React.FC = () => {
           <RelatedProduct key={index} {...product} />
         ))}
       </div>
-      <img
+      <Image
         loading="lazy"
         src="/3dot.svg"
         className="object-contain mt-16 aspect-[5.26] w-[42px] max-md:mt-10"
         alt=""
+        width={5}
+        height={5}
       />
     </>
   );

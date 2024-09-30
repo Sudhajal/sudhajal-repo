@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from "react";
+import Image from "next/image";
 
 const UserActions: React.FC = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -81,11 +82,13 @@ const UserActions: React.FC = () => {
         className="flex justify-center items-center self-stretch px-2 my-auto bg-white bg-opacity-0 h-[42px] min-h-[41px] rounded-[31px] w-[42px]"
         aria-label="User action 2"
       >
-        <img
+        <Image
           loading="lazy"
           src="/cart.svg"
           alt="User action icon"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
+          width={6}
+          height={2}
         />
       </button>
 

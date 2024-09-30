@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import Image from "next/image";
 interface ProductCardProps {
   name: string;
   price: string;
@@ -23,11 +23,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
           <div className="text-lg font-semibold tracking-tight leading-none">
             ₹{price}
           </div>
-          <img
+          <Image
             loading="lazy"
-            src={`http://b.io/ext_${9 + rating}-`}
+            src="/star.svg"
             alt={`${rating} star rating`}
             className="object-contain self-stretch w-full aspect-[5.24]"
+            width={30}
+           
+            height={5}
           />
         </div>
         <div className="flex flex-col text-xs">

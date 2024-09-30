@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const FooterWrapper: React.FC = () => {
   const footerProps = {
     logoSrc:
-      "Group 7610.png",
+      "/Group 7610.png",
     companyName: "Sudhajal",
     tagline: "The Epitone of purity",
     address:
