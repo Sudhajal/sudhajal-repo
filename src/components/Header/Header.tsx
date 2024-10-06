@@ -5,7 +5,7 @@ import UserActions from "./UserActions";
 
 const Header: React.FC = () => {
   return (
-    <header className="flex flex-wrap items-center justify-between px-5 py-3 w-full bg-white shadow-md md:px-8 md:py-5 max-md:flex-col max-md:items-center">
+    <header className="flex flex-wrap items-center justify-between px-5 py-3 w-full bg-white shadow-md md:px-8 md:py-5 max-md:flex-col max-md:items-center ">
       {/* Logo Section */}
       <div className="flex-shrink-0 max-md:mb-3">
         <Logo />

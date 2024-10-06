@@ -155,16 +155,18 @@ const ProductInfo: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-wrap self-stretch mt-7 w-full text-base font-medium tracking-normal text-black whitespace-nowrap max-md:max-w-full">
-                <button className="gap-2.5 self-stretch px-2.5 py-1.5 text-white bg-blue-700 rounded-md w-[82px]">
-                  Description
-                </button>
-                <button className="gap-2.5 self-stretch px-2.5 py-1.5 rounded-md w-[60px]">
-                  Material
-                </button>
-                <button className="gap-2.5 self-stretch px-2.5 py-1.5 rounded-md w-[61px]">
-                  Reviews
-                </button>
-              </div>
+  <button className="gap-2.5 self-stretch px-2.5 py-1.5 text-black hover:bg-blue-700 hover:text-white rounded-md w-[100px]">
+    Description
+  </button>
+  <button className="gap-2.5 self-stretch px-2.5 py-1.5  text-black rounded-md w-[80px] hover:bg-blue-700 hover:text-white">
+    Material
+  </button>
+  <button className="gap-2.5 self-stretch px-2.5 py-1.5 text-black rounded-md w-[80px] hover:bg-blue-700 hover:text-white">
+    Reviews
+  </button>
+</div>
+
+
               <p className="self-stretch mt-5 text-base leading-6 text-neutral-700 max-md:max-w-full">
                 This filter set includes five replacement filters for the
                 PUREGEN quick-change

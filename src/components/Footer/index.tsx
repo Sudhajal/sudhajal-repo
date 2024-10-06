@@ -6,8 +6,10 @@ const FooterWrapper: React.FC = () => {
   const footerProps = {
     logoSrc:
       "/Group 7610.png",
-    companyName: "Sudhajal",
+    companyName: "Sudhajal ",
+    companyHandle:"Sudhajal - Samruddhi Sales Corp.",
     tagline: "The Epitone of purity",
+
     address:
       "8, Shri Ganpati Sankul, Nr. seeta Nursing Home Hospital , Ashok Stambh, Nashik - 422001",
     contactInfo: {

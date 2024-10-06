@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Testimonial: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row relative gap-6 items-center py-20 px-5 md:px-20 mt-2.5 max-w-full bg-violet-100 min-h-[431px] shadow-[0px_3px_21px_rgba(0,0,0,0.25)]">
+    <div className="flex flex-col md:flex-row relative  items-center py-20 px-5 md:px-20 mt-2.5 max-w-full bg-violet-100 min-h-[431px] shadow-[0px_3px_21px_rgba(0,0,0,0.25)]">
       {/* Background Layer */}
       <div className="absolute inset-0 z-0 bg-violet-100 h-full w-full" />
       

@@ -8,7 +8,7 @@ const PriceFilter: React.FC = () => {
         Price ₹
       </div>
       <div className="flex flex-col grow shrink items-start w-56">
-        <div className="flex shrink-0 bg-blue-700 rounded-full h-[9px] w-[9px]" />
+        <div className="flex shrink-0 bg-blue-700 rounded-full h-[20px] w-[9px]" />
       </div>
       <input
         type="text"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Logo: React.FC = () => {
   return (
-    <div className="flex gap-2.5">
+    <div className="flex gap-3">
       <Image
         loading="lazy"
         src="/Group 7609.png"
@@ -16,9 +16,9 @@ const Logo: React.FC = () => {
         loading="lazy"
         src="/Vector.png"
         alt="Logo part 2"
-        className="object-contain shrink-0 my-auto aspect-[4]"
+        className="object-contain shrink-0 my-auto aspect-[4] mt-5"
         width={124}  // Set width
-        height={31}  // Set height
+        height={50}  // Set height
       />
     </div>
   );

@@ -29,13 +29,16 @@ export const WaterService: React.FC<WaterServiceProps> = () => {
             </Link>
           </div>
         </div>
-        <ImageComponent
+       
+
+<ImageComponent
   src="/blob.png"
   alt="Water service illustration"
-  className="object-contain w-full lg:w-[50%] mt-6 lg:mt-0 animate-blob"
-  width={500} // Replace with actual width
-  height={300} // Replace with actual height
+  className="object-contain w-full lg:w-1/2 mt-6 lg:mt-0 animate-spin-custom"
+  width={500} 
+  height={300} 
 />
+
       </div>
 
       {/* Water Science Section */}

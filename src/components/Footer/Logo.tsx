@@ -10,7 +10,7 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ src, companyName, tagline }) => {
   return (
-    <div className="flex flex-col self-stretch my-auto h-[131px] w-[169px]">
+    <div className="flex flex-col self-stretch my-auto h-[131px] w-[169px] mt-3">
       <Image
         loading="lazy"
         src="/Group 7610.png"
@@ -20,7 +20,7 @@ const Logo: React.FC<LogoProps> = ({ src, companyName, tagline }) => {
         height={44}
       
       />
-      <div className="flex flex-col justify-center mt-3 w-full">
+      <div className="flex flex-col justify-center mt-4 w-full">
         <div className="self-center text-2xl font-black leading-none text-center">
           {companyName}
         </div>

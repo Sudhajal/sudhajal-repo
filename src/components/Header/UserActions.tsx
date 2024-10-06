@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 
@@ -16,25 +16,15 @@ const UserActions: React.FC = () => {
         {!isSearchOpen ? (
           <button
             onClick={handleSearchToggle}
-            className="p-2 py-4 text-black
-             bg-white
-             rounded-full focus:outline-none focus:ring-2 focus:ring-blue-300"
+            className="p-2 py-4 text-black bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-blue-300"
             aria-label="Open search bar"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 11a4 4 0 11-8 0 4 4 0 018 0zM21 21l-4.35-4.35"
-              />
-            </svg>
+            <Image
+              src="/search.svg"
+              width={24} // Change width to number, not string
+              height={24} // Change height to number, not string
+              alt="Search icon"
+            />
           </button>
         ) : (
           <form className="relative w-full max-w-md mx-auto">
@@ -77,6 +67,20 @@ const UserActions: React.FC = () => {
         )}
       </div>
 
+      {/* Additional Icon Button */}
+      <button
+        className="flex justify-center items-center self-stretch px-2 my-auto bg-white bg-opacity-0 h-[42px] min-h-[41px] rounded-[31px] w-[42px]"
+        aria-label="Additional user action"
+      >
+        <Image
+          src="/wishlist.svg" // Replace with the actual path to your additional icon
+          alt="Additional action icon"
+          className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
+          width={24} // Adjust size as necessary
+          height={24} // Adjust size as necessary
+        />
+      </button>
+
       {/* User Action Button 1 */}
       <button
         className="flex justify-center items-center self-stretch px-2 my-auto bg-white bg-opacity-0 h-[42px] min-h-[41px] rounded-[31px] w-[42px]"
@@ -87,8 +91,8 @@ const UserActions: React.FC = () => {
           src="/cart.svg"
           alt="User action icon"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
-          width={6}
-          height={2}
+          width={24} // Adjust size as necessary
+          height={24} // Adjust size as necessary
         />
       </button>
 

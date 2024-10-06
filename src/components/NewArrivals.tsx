@@ -1,6 +1,7 @@
 
 import React from "react";
 import ProductCard from "./ProductCard";
+import Link from "next/link";
 
 interface Product {
   imageSrc: string;
@@ -38,9 +39,12 @@ const NewArrivals: React.FC = () => {
               <br /> Enquire to know details.
             </p>
             <div className="flex flex-col justify-center items-center self-stretch mt-5 w-full text-xs font-medium leading-9 max-md:max-w-full">
-              <button className="gap-2.5 self-stretch px-5 py-0.5 border border-sky-500 border-solid min-h-[41px] rounded-[46px] max-md:px-5">
-                View more &gt;
-              </button>
+            <Link href="/product">
+  <span className="gap-2.5 self-stretch px-5 py-0.5 border border-sky-500 border-solid min-h-[41px] rounded-[46px] max-md:px-5">
+    View more &gt;
+  </span>
+</Link>
+
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ interface PricingCardProps {
   description: string;
   price: string;
   period: string;
-  features: string[];
+  features: Array<{ icon: string; text: string }>;
   isPopular?: boolean;
 }
 
@@ -50,7 +50,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
         </div>
       </div>
       <div className="flex flex-col mt-8 w-full">
-        {features.map((feature, index) => (
+        {features.map(({ icon, text }, index) => (
           <div key={index} className="flex gap-3.5 items-center mt-2.5 w-full">
             <div
               className={`flex gap-2 items-center self-stretch p-2 my-auto 
@@ -59,7 +59,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
             >
               <Image
                 loading="lazy"
-                src=""
+                src={icon}
                 alt=""
                 className="object-contain aspect-square w-[13px]"
                 height={20}
@@ -67,7 +67,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
               />
             </div>
             <div className="flex-1 shrink self-stretch my-auto text-sm md:text-base font-medium">
-              {feature}
+              {text}
             </div>
           </div>
         ))}

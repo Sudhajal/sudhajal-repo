@@ -8,7 +8,7 @@ interface PricingPlan {
   description: string;
   price: string;
   period: string;
-  features: string[];
+  features: { icon: string; text: string }[];
   isPopular?: boolean;
 }
 
@@ -17,55 +17,59 @@ const pricingPlans: PricingPlan[] = [
     title: "Freebie (Service call)",
     description:
       "A normal service call where you can get notified for the service through call within 48 hours",
-    price: "₹450",
-    period: "service",
+    price:"₹450",
+    period: "/ Year",
     features: [
-      "₹1050 worth of spares free!",
-      "Get Elbow, connectors, pipe (5mtrs).",
-      "Spun Filter and sediment filter",
-      "3 Compulsory service",
-      "2 Emergency service worth ₹450+ free",
-      "No toll free numbers! 1 call service available.",
-      "Instant Access to our service system",
-      "Get notified for every move",
+      { icon: "/cross.svg", text: "₹1050 worth of spares free!" },
+      { icon: "/cross.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
+      { icon: "/cross.svg", text: "Spun Filter and sediment filter" },
+      { icon: "/cross.svg", text: "3 Compulsory service" },
+      { icon: "/cross.svg", text: "2 Emergency service worth ₹450+ free" },
+      { icon: "/check.svg", text: "No toll free numbers!1 call service available." },
+      { icon: "/check.svg", text: "Instant Access to our service system" },
+      { icon: "/check.svg", text: "Get notified for every move" },
     ],
   },
   {
     title: "RO services",
     description:
-      "A combo service pack Ideal for domestic services who need personalized care for domastic purifiers.",
-    price: "₹2500",
-    period: "Yr",
+      "A combo service pack Ideal for domestic services who need personalized care for domestic purifiers.",
+    price: "₹3000",
+    period: "/ Year",
     features: [
-      "₹1050 worth of spares free!",
-      "Get Elbow, connectors, pipe (5mtrs).",
-      "Spun Filter and sediment filter",
-      "3 Compulsory service",
-      "2 Emergency service worth ₹450+ free",
-      "No toll free numbers! 1 call service available.",
-      "Instant Access to our service system",
-      "Get notified for every move",
+      { icon: "", text: "₹1050 worth of spares free!" },
+   
+      { icon: "/check.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
+      { icon: "/check.svg", text: "Spun Filter and sediment filter" },
+      { icon: "/check.svg", text: "3 Compulsory service" },
+      { icon: "/check.svg", text: "2 Emergency service worth ₹450+ free" },
+      { icon: "/check.svg", text: "No toll free numbers! 1 call service available." },
+      { icon: "/check.svg", text: "Instant Access to our service system" },
+      { icon: "/check.svg", text: "Get notified for every move" },
     ],
     isPopular: true,
   },
   {
     title: "UV/UF/UV+UF services",
     description:
-      "A combo service pack ideal for domestic services who need personalized care for domastic purifiers",
-    price: "₹1500",
-    period: "Year",
+      "A combo service pack ideal for domestic services who need personalized care for domestic purifiers.",
+    price: "₹2000",
+    period: "/ Year",
     features: [
-      "₹1050 worth of spares free!",
-      "Get Elbow, connectors, pipe (5mtrs).",
-      "Spun Filter and sediment filter",
-      "3 Compulsory service",
-      "2 Emergency service worth ₹450+ free",
-      "No toll free numbers! 1 call service available.",
-      "Instant Access to our service system",
-      "Get notified for every move",
+      { icon: "/check.svg", text: "₹1050 worth of spares free!" },
+  
+      { icon: "/check.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
+      { icon: "/check.svg", text: "Spun Filter and sediment filter" },
+      { icon: "/check.svg", text: "3 Compulsory service" },
+      { icon: "/check.svg", text: "2 Emergency service worth ₹450+ free" },
+      { icon: "/check.svg", text: "No toll free numbers! 1 call service available." },
+      { icon: "/check.svg", text: "Instant Access to our service system" },
+      { icon: "/check.svg", text: "Get notified for every move" },
     ],
   },
 ];
+
+
 
 const PricingPlans: React.FC = () => {
   return (
@@ -109,7 +113,7 @@ const PricingPlans: React.FC = () => {
             type="tel"
             id="contactNumber"
             placeholder="Enter your contact number"
-            className="flex-1 bg-transparent text-white border-none outline-none"
+            className="flex-1 bg-transparent bg-blue-800 text-white border-none outline-none py-4"
           />
           <button
             type="submit"
