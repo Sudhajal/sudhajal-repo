@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -15,13 +15,34 @@ const filterTypes = [
   "mineral filter", "Ultra voilet(UV) filter",
 ];
 
-const CheckboxFilter = ({ title, items, category, selectedFilters, handleCheckboxChange }) => (
+// Define types for CheckboxFilter props
+interface CheckboxFilterProps {
+  title: string;
+  items: string[]; // Assuming items are string arrays
+  category: keyof SelectedFiltersState; // Category should match the keys of selectedFilters
+  selectedFilters: SelectedFiltersState;
+  handleCheckboxChange: (category: keyof SelectedFiltersState, item: string) => void;
+}
+
+interface SelectedFiltersState {
+  modelType: string[];
+  productType: string[];
+  filterType: string[];
+}
+
+const CheckboxFilter: React.FC<CheckboxFilterProps> = ({
+  title,
+  items,
+  category,
+  selectedFilters,
+  handleCheckboxChange,
+}) => (
   <div className="flex flex-col mt-5 w-full">
     <div className="text-base font-semibold tracking-normal leading-relaxed text-gray-800">
       {title}
     </div>
     <div className="flex flex-col items-start mt-1.5 w-full">
-      {items.map((item: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined, index: React.Key | null | undefined) => (
+      {items.map((item, index) => (
         <div key={index} className="flex gap-2 items-start self-stretch mt-1 w-full">
           <div className="flex gap-2.5 items-start py-1 w-4">
             <input
@@ -43,7 +64,7 @@ const CheckboxFilter = ({ title, items, category, selectedFilters, handleCheckbo
 
 const ResponsiveFilterSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedFilters, setSelectedFilters] = useState({
+  const [selectedFilters, setSelectedFilters] = useState<SelectedFiltersState>({
     modelType: [],
     productType: [],
     filterType: [],
@@ -52,19 +73,19 @@ const ResponsiveFilterSidebar = () => {
 
   const toggleSidebar = () => setIsOpen(!isOpen);
 
-  const handleCheckboxChange = (category: string | number, item: any) => {
-    setSelectedFilters(prev => ({
+  const handleCheckboxChange = (category: keyof SelectedFiltersState, item: string) => {
+    setSelectedFilters((prev) => ({
       ...prev,
       [category]: prev[category].includes(item)
-        ? prev[category].filter((i: any) => i !== item)
-        : [...prev[category], item]
+        ? prev[category].filter((i) => i !== item)
+        : [...prev[category], item],
     }));
   };
 
-  const handleMaxPriceChange = (e: { target: { value: any; }; }) => {
+  const handleMaxPriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(e.target.value);
     if (value >= priceRange.min) {
-      setPriceRange(prev => ({ ...prev, max: value }));
+      setPriceRange((prev) => ({ ...prev, max: value }));
     }
   };
 
