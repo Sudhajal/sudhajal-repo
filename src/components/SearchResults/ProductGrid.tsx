@@ -3,10 +3,14 @@ import React from "react";
 import ProductCard from "./ProductCard";
 
 const products = [
-  { name: "Purifier", price: "599", rating: 5, reviews: 243 },
-  { name: "Purifier", price: "1,449", rating: 4, reviews: 98 },
-  { name: "Purifier", price: "739", rating: 5, reviews: 1002 },
+  { name: "Purifier", price: "599", rating: 5, reviews: 243, link: "/product/1" },
+  { name: "Purifier", price: "1,449", rating: 4, reviews: 98, link: "/product/2" },
+  { name: "Purifier", price: "739", rating: 5, reviews: 1002, link: "/product/3" },
+  { name: "Purifier", price: "599", rating: 5, reviews: 243, link: "/product/4" },
+  { name: "Purifier", price: "1,449", rating: 4, reviews: 98, link: "/product/5" },
+  { name: "Purifier", price: "739", rating: 5, reviews: 1002, link: "/product/6" },
 ];
+
 
 const ProductGrid: React.FC = () => {
   return (
