@@ -57,7 +57,7 @@ const WaterService: React.FC = () => {
             <TextBlock
               content={[
                 "Water is not simply a drinkable element; it is also an essential component of our lives. Sudhajal, The Samruddhi Sales Corporation's dedication, has opted to prioritize 'servicing' in this industry.",
-                "Pure water does more than quench your thirst—it fuels every function in your body. But the secret isn't just in how much you drink; it's in the quality of the water itself...",
+               " Pure water does more than quench your thirst—it fuels every function in your body. But the secret isn't just in how much you drink; it's in the quality of the water itself. With the right purification at home, you unlock a hidden essence, ensuring that every sip and every meal nourishes you in ways you might not even realize."
               ]}
             />
             <Link href="#contactform">
@@ -150,7 +150,7 @@ const WaterService: React.FC = () => {
               </h2>
               <TextBlock
                 content={[
-                  "We often trust popular brands because we believe they maintain a certain standard—like offering water with a TDS (Total Dissolved Solids) of 54 or higher, which many associate with a balanced mineral content. You might notice that mineral water at airports is pricier than regular bottles, reflecting the perceived value of those essential nutrients...",
+                  "We often trust popular brands because we believe they maintain a certain standard—like offering water with a TDS (Total Dissolved Solids) of 54 or higher, which many associate with a balanced mineral content. You might notice that mineral water at airports is pricier than regular bottles, reflecting the perceived value of those essential nutrients. Water is more than just a thirst-quencher; it's a complex element carrying vital minerals bound to H2O by ionized bonds, directly impacting your body's needs. In short, the right TDS balance can be the difference between thriving health and potential issues."
                 ]}
               />
               <div className="flex gap-9 justify-center items-center mt-6 lg:mt-9 text-sm tracking-wide">
