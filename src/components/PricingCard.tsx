@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface PricingCardProps {
   title: string;
@@ -26,7 +27,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
       <div className="flex flex-col w-full">
         <div className="flex flex-col w-full">
           <h3 className="text-xl md:text-2xl font-bold">{title}</h3>
-          <p className="mt-2.5 text-sm md:text-base text-stone-500 hover:text-white">
+          <p className="mt-2.5 text-sm md:text-base hover:text-white">
             {description}
           </p>
         </div>
@@ -35,25 +36,27 @@ const PricingCard: React.FC<PricingCardProps> = ({
             <span className="self-stretch my-auto text-5xl font-semibold max-md:text-4xl">
               {price}
             </span>
-            <span className="self-stretch my-auto text-sm md:text-base font-light text-stone-500 hover:text-gray-50">
+            <span className="self-stretch my-auto text-sm md:text-base font-light  hover:text-white">
               / {period}
             </span>
           </div>
+          <Link href="#contactform">
           <button
             className={`gap-1 self-stretch px-2.5 py-2.5 mt-5 w-full text-sm font-semibold text-center 
-            rounded transition-all duration-300 
-            bg-white text-blue-700 border-blue-700 border-solid border-[1.25px]
-            hover:bg-blue-500 hover:text-white`}
-          >
+              rounded transition-all duration-300 
+              bg-white text-blue-700 border-blue-700 border-solid border-[1.25px] te
+              hover:bg-blue-500 hover:text-white`}
+              >
             Get Started Now
           </button>
+            </Link>
         </div>
       </div>
       <div className="flex flex-col mt-8 w-full">
         {features.map(({ icon, text }, index) => (
           <div key={index} className="flex gap-3.5 items-center mt-2.5 w-full">
             <div
-              className={`flex gap-2 items-center self-stretch p-2 my-auto 
+              className={`flex gap-2 items-center self-stretch py-2 my-auto 
               h-[27px] w-[27px] rounded-full transition-all duration-300
               bg-gray-50 hover:bg-violet-100`}
             >
@@ -61,9 +64,9 @@ const PricingCard: React.FC<PricingCardProps> = ({
                 loading="lazy"
                 src={icon}
                 alt=""
-                className="object-contain aspect-square w-[13px]"
-                height={20}
-                width={13}
+                className="object-contain aspect-square items-center "
+                height={25}
+                width={25}
               />
             </div>
             <div className="flex-1 shrink self-stretch my-auto text-sm md:text-base font-medium">

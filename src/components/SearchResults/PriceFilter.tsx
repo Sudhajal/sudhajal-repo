@@ -2,29 +2,13 @@
 import React, { useState } from "react";
 
 const PriceFilter: React.FC = () => {
-  const [minPrice, setMinPrice] = useState<number | undefined>(undefined);
+  const [minPrice, setMinPrice] = useState<number>(0); // Set default min price to 0
   const [maxPrice, setMaxPrice] = useState<number | undefined>(undefined);
-
-  const handleRangeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = Number(e.target.value);
-    // Update minPrice only if it's less than or equal to the maxPrice
-    if (maxPrice === undefined || value <= maxPrice) {
-      setMinPrice(value);
-    }
-  };
-
-  const handleMinChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = Number(e.target.value);
-    // Ensure minPrice does not exceed maxPrice
-    if (maxPrice === undefined || value <= maxPrice) {
-      setMinPrice(value);
-    }
-  };
 
   const handleMaxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(e.target.value);
     // Ensure maxPrice is greater than or equal to minPrice
-    if (minPrice === undefined || value >= minPrice) {
+    if (value >= minPrice) {
       setMaxPrice(value);
     }
   };
@@ -35,17 +19,17 @@ const PriceFilter: React.FC = () => {
 
       {/* Displaying Min and Max price values */}
       <div className="flex justify-between w-full text-sm text-gray-600">
-        <span>Min: ₹{minPrice !== undefined ? minPrice : "N/A"}</span>
+        <span>Min: ₹{minPrice}</span>
         <span>Max: ₹{maxPrice !== undefined ? maxPrice : "N/A"}</span>
       </div>
 
-      {/* Range input to control min price */}
+      {/* Range input to control max price */}
       <input
         type="range"
-        min="0"
-        max="30000"
-        value={minPrice !== undefined ? minPrice : 0} // Default to 0 if minPrice is undefined
-        onChange={handleRangeChange}
+        min={minPrice} // Ensure the range starts from the min price
+        max="45000"
+        value={maxPrice !== undefined ? maxPrice : 30000} // Default to 30000 if maxPrice is undefined
+        onChange={handleMaxChange}
         className="w-full"
       />
 
@@ -53,8 +37,8 @@ const PriceFilter: React.FC = () => {
       <div className="flex gap-2 w-full">
         <input
           type="text"
-          value={minPrice !== undefined ? minPrice : ""}
-          onChange={handleMinChange}
+          value={minPrice} // Fixed minPrice input
+          readOnly // Make it read-only since it should not be changed
           placeholder="Min"
           aria-label="Minimum price"
           className="overflow-hidden grow px-3 py-1 text-sm text-gray-400 bg-white rounded-md border border-solid border-zinc-200 w-[104px]"

@@ -18,7 +18,7 @@ const pricingPlans: PricingPlan[] = [
     description:
       "A normal service call where you can get notified for the service through call within 48 hours",
     price:"₹450",
-    period: "/ Year",
+    period: "Year",
     features: [
       { icon: "/cross.svg", text: "₹1050 worth of spares free!" },
       { icon: "/cross.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
@@ -35,9 +35,9 @@ const pricingPlans: PricingPlan[] = [
     description:
       "A combo service pack Ideal for domestic services who need personalized care for domestic purifiers.",
     price: "₹3000",
-    period: "/ Year",
+    period: "Year",
     features: [
-      { icon: "", text: "₹1050 worth of spares free!" },
+      { icon: "/check.svg", text: "₹1050 worth of spares free!" },
    
       { icon: "/check.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
       { icon: "/check.svg", text: "Spun Filter and sediment filter" },
@@ -54,7 +54,7 @@ const pricingPlans: PricingPlan[] = [
     description:
       "A combo service pack ideal for domestic services who need personalized care for domestic purifiers.",
     price: "₹2000",
-    period: "/ Year",
+    period: "Year",
     features: [
       { icon: "/check.svg", text: "₹1050 worth of spares free!" },
   
@@ -88,15 +88,16 @@ const PricingPlans: React.FC = () => {
           <PricingCard key={index} {...plan} />
         ))}
       </div>
-      <div className="flex flex-wrap gap-4 items-center px-4 md:px-8 py-6 mt-12 w-full md:w-[1033px] bg-blue-700 rounded max-md:mt-10">
+      <div className="flex flex-wrap gap-4 items-center px-4 md:px-8 py-6 mt-12 w-full md:w-[1033px] bg-blue-600 rounded max-md:mt-10">
         <div className="flex flex-col flex-1 justify-center text-center md:text-left">
-          <h3 className="text-xl font-semibold text-white capitalize">
+          <h3 className="text-xl font-semibold  text-white capitalize">
             Looking for Industry solutions?
           </h3>
           <p className="mt-1 text-lg text-white text-opacity-80">
             Click here & connect us to know about discounts and offers
           </p>
         </div>
+          <div className="bg-blue-900">
         <form className="flex flex-1 gap-2 items-center py-2 pl-3 pr-10 rounded min-h-[40px]">
           <Image
             loading="lazy"
@@ -113,15 +114,18 @@ const PricingPlans: React.FC = () => {
             type="tel"
             id="contactNumber"
             placeholder="Enter your contact number"
-            className="flex-1 bg-transparent bg-blue-800 text-white border-none outline-none py-4"
-          />
+            className="flex-1 bg-transparent
+            text-white border-none outline-none py-4"
+            />
           <button
             type="submit"
             className="px-4 py-2 bg-white text-emerald-700 font-semibold rounded transition-colors duration-300"
-          >
+            >
             Submit
           </button>
+            
         </form>
+              </div>
       </div>
     </div>
   );

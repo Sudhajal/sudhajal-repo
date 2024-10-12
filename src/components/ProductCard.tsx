@@ -36,7 +36,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <div className="flex flex-col flex-1 shrink w-full text-xs font-bold tracking-wide text-center basis-0">
           
           {/* Send Enquiry Button */}
-          <Link href="/enquiry">
+          <Link href="#contactform">
             <button
            
               aria-label="Send enquiry about this product"

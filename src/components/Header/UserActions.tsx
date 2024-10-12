@@ -4,9 +4,21 @@ import Image from "next/image";
 
 const UserActions: React.FC = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(""); // State to store the search input
 
   const handleSearchToggle = () => {
     setIsSearchOpen((prev) => !prev);
+  };
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value); // Update search query state
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Add your search logic here, for example:
+    console.log("Search submitted:", searchQuery);
+    // Perform search action (API call or filtering, etc.)
   };
 
   return (
@@ -21,17 +33,19 @@ const UserActions: React.FC = () => {
           >
             <Image
               src="/search.svg"
-              width={24} // Change width to number, not string
-              height={24} // Change height to number, not string
+              width={24}
+              height={24}
               alt="Search icon"
             />
           </button>
         ) : (
-          <form className="relative w-full max-w-md mx-auto">
+          <form onSubmit={handleSearchSubmit} className="relative w-full max-w-md mx-auto">
             <div className="relative">
               <input
                 type="search"
                 id="default-search"
+                value={searchQuery} // Bind the input value to the state
+                onChange={handleSearchChange} // Update the state on change
                 className="block w-full px-10 py-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Search..."
                 autoFocus
@@ -73,11 +87,11 @@ const UserActions: React.FC = () => {
         aria-label="Additional user action"
       >
         <Image
-          src="/wishlist.svg" // Replace with the actual path to your additional icon
+          src="/wishlist.svg"
           alt="Additional action icon"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
-          width={24} // Adjust size as necessary
-          height={24} // Adjust size as necessary
+          width={24}
+          height={24}
         />
       </button>
 
@@ -91,8 +105,8 @@ const UserActions: React.FC = () => {
           src="/cart.svg"
           alt="User action icon"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
-          width={24} // Adjust size as necessary
-          height={24} // Adjust size as necessary
+          width={24}
+          height={24}
         />
       </button>
 
