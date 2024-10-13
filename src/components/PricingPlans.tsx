@@ -18,7 +18,7 @@ const pricingPlans: PricingPlan[] = [
     description:
       "A normal service call where you can get notified for the service through call within 48 hours",
     price:"₹450",
-    period: "Year",
+    period: "Service",
     features: [
       { icon: "/cross.svg", text: "₹1050 worth of spares free!" },
       { icon: "/cross.svg", text: "Get Elbow, connectors, pipe (5mtrs)." },
