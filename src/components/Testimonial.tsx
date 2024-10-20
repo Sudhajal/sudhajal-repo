@@ -31,7 +31,7 @@ const Testimonial: React.FC = () => {
         <div className="relative flex flex-col pt-52 md:pt-20 w-full rounded-2xl min-h-[281px]">
           <Image
             loading="lazy"
-            src="/BG.png"
+            src="/sachin.jpeg"
             alt="Sachin Bhosle"
             className="object-cover absolute inset-0 h-full w-full rounded-2xl"
             fill
