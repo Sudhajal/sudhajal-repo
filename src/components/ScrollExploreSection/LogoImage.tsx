@@ -12,7 +12,7 @@ const LogoImage: React.FC<LogoImageProps> = ({ src }) => {
       loading="lazy"
       src="/logo.png"
       alt="Company logo"
-      className="object-contain max-w-full aspect-[1.01] w-[292px]"
+      className="object-contain max-w-full justify-center"
       width={292}
       height={200}
     />

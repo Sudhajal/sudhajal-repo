@@ -133,11 +133,11 @@ const WaterService: React.FC = () => {
 
       {/* Water Science Section */}
       <div className="mt-10 flex flex-col lg:flex-row gap-5 items-center">
-        <div className="flex justify-center lg:justify-end w-full lg:w-6/12">
+        <div className="flex justify-center  w-full lg:w-6/12">
           <ImageComponent
             src="/buble.png"
             alt="Water science illustration"
-            className="object-contain w-32 lg:w-[153px]"
+            className="object-contain w- lg:w-[140px]"
             width={128}
             height={128}
           />

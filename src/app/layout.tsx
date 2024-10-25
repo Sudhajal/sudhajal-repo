@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Almarai } from "next/font/google";
+import { Inter, Lato } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 
-const almarai = Almarai({ subsets: ["arabic"], weight: ["400"] });
+// Import the Lato font with desired subsets and weights
+const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Sudhajal",
@@ -18,10 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body className={lato.className}>
         <Header />
         <div className="min-h-dvh ">{children}</div>
-        <div className="w-full  ">
+        <div className="w-full">
           <Footer />
         </div>
       </body>

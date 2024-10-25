@@ -16,11 +16,14 @@ const ScrollExploreSection: React.FC<ScrollExploreSectionProps> = ({
   return (
     <section className="flex relative flex-col items-end px-20 pt-52 pb-20 w-full min-h-[706px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
       <BackgroundImage src={backgroundImageSrc} />
-      <div className="flex relative flex-col max-w-full w-[747px]">
+      <div className="flex relative flex-col  w-[900px]">
+        <div className="justify-center">
         <LogoImage src={logoImageSrc} />
+        </div>
         <ScrollPrompt />
       </div>
     </section>
+          
   );
 };
 
