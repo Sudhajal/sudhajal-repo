@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 const Testimonial: React.FC = () => {
   return (
+    <div className="w-full flex justify-center items-center py-16" style={{ backgroundColor: '#E9EEFC' }}>
 
 
-    <div className="flex flex-col md:flex-row relative  items-center py-20 px-5 md:px-20 mt-2.5 max-w-full bg-violet-100 min-h-[431px] shadow-[0px_3px_21px_rgba(0,0,0,0.25)]">
-      {/* Background Layer */}
-      <div className="absolute inset-0 z-0 bg-violet-100 h-full w-full" />
+    
+    
+   
       
       {/* Testimonial Content */}
       <div className="flex z-10 flex-col self-stretch my-auto min-w-[240px] w-full md:w-[535px]">
@@ -39,7 +40,7 @@ const Testimonial: React.FC = () => {
             fill
             
             />
-          <div className="relative flex flex-col items-start pt-2 pr-20  pl-8 mt-20 rounded-2xl bg-opacity-60">
+          <div className="relative flex flex-col items-start  pr-20  pl-8 mt-20 rounded-2xl bg-opacity-60">
             <div className="text-base font-semibold tracking-tight leading-none">
               Sachin Bhosle
             </div>
@@ -50,7 +51,8 @@ const Testimonial: React.FC = () => {
         </div>
       </div>
     </div>
+          
   );
 };
-           
+
 export default Testimonial;

@@ -26,7 +26,9 @@ const products: Product[] = [
 
 const NewArrivals: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-2.5 max-w-full bg-blue-700 bg-opacity-10 w-[1438px]">
+    <div className="w-full">
+
+    <div className="flex flex-col justify-center items-center mt-2.5 max-w-full bg-blue-700 bg-opacity-10"> 
       <div className="flex flex-col py-2 max-w-full w-[1029px]">
         <div className="flex flex-col justify-center items-center px-36 py-10 w-full text-black max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center max-w-full w-[548px]">
@@ -55,6 +57,7 @@ const NewArrivals: React.FC = () => {
         </div>
       </div>
     </div>
+          </div>
   );
 };
 
