@@ -105,7 +105,7 @@ const ContactForm: React.FC = () => {
           <Image
             loading="lazy"
             src="/Image.png"
-            alt="Contact illustration"
+            alt="Contact illustration Sudhajal"
             className="object-contain flex-1 shrink w-full aspect-[0.82] basis-0 min-w-[240px] max-md:max-w-full"
             width={240}
             height={25}

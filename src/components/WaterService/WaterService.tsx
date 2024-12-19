@@ -46,14 +46,16 @@ const WaterService: React.FC = () => {
   return (
     <div id="waterservice" className="bg-white flex flex-col p-4">
       {/* Main Header Section */}
+      <h1 className="text-4xl md:text-5xl my-8 max-w-6xl">Sudhajal - Water Purification Services for business and household</h1>
+
       <div className="flex flex-col lg:flex-row justify-center items-center text-center text-zinc-800">
         <div className="flex gap-2.5 items-end w-full lg:w-[70%] my-12">
           <div className="flex flex-col justify-center min-w-[240px] w-full lg:w-[547px]">
-            <h1 className="text-3xl lg:text-4xl">
+            <h2 className="text-3xl lg:text-4xl">
               <span>A Service That Meets Your Needs (</span>
               <span className="leading-10">Our Motive</span>
               <span>)</span>
-            </h1>
+            </h2>
             <TextBlock
               content={[
                 "Water is more than just a drinkable element—it's the essence of life itself. At Sudhajal, a trusted venture of Samruddhi Sales Corporation, we are dedicated to prioritizing 'service' in the water purification industry.",
@@ -137,7 +139,7 @@ const WaterService: React.FC = () => {
         <div className="flex justify-center  w-full lg:w-6/12">
           <ImageComponent
             src="/buble.png"
-            alt="Water science illustration"
+            alt="Water science illustration Sudhajal"
             className="object-contain w- lg:w-[140px]"
             width={128}
             height={128}

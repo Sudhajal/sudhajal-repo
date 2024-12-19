@@ -71,7 +71,7 @@ const PricingPlans: React.FC = () => {
     <div id="pricingplans" className="flex flex-col items-center px-6 md:px-28 py-12 mt-2.5 w-full bg-white rounded max-md:max-w-full">
       <div className="flex flex-col justify-center max-w-full text-center w-full md:w-[472px]">
         <h2 className="text-3xl font-bold">
-          <p><span className="text-zinc-900 text-4xl my-3">Key Features of Our </span></p>
+          <p className="text-zinc-900 text-4xl my-3">Key Features of Our</p>
           <p><span className="text-blue-700">Domestic services</span></p>
         </h2>
         <p className="self-center mt-3.5 text-lg text-zinc-900">
@@ -97,7 +97,7 @@ const PricingPlans: React.FC = () => {
             <Image
               loading="lazy"
               src="/arrow.svg"
-              alt=""
+              alt="Sudhajal"
               className="w-5 h-5 object-contain"
               width={5}
               height={5}

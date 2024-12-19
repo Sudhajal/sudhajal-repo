@@ -21,7 +21,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <div className="absolute top-2 right-2">
         <Image
           src="/wishlist.svg"
-          alt="Wishlist Icon"
+          alt="Wishlist Icon Sudhajal"
           width={24}
           height={24}
           className="cursor-pointer"

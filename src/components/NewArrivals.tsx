@@ -19,7 +19,7 @@ const products: Product[] = [
   {
     imageSrc:
       "/Group 7615.png",
-    title: "5 Filter Purifier With UV, UF, RO and sediment filters",
+    title: "New filter purifiers with modern technology support",
     description: "Get free installation\n1yr service warranty free",
   },
 ];

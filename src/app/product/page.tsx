@@ -13,7 +13,7 @@ const Page = () => {
         <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
           <Image
             src="/chat.png"
-            alt="Chat Icon" // Add alt text for accessibility
+            alt="Chat Icon Sudhajal" // Add alt text for accessibility
             height={50}
             width={50}
           />

@@ -38,7 +38,7 @@ const RelatedProduct: React.FC<RelatedProductProps> = ({
           loading="lazy"
           src="/cart.svg"
           className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
-          alt=""
+          alt="Sudhajal"
           width={5}
           height={5}
         />
@@ -86,7 +86,7 @@ const RelatedProducts: React.FC = () => {
         loading="lazy"
         src="/3dot.svg"
         className="object-contain mt-16 aspect-[5.26] w-[42px] max-md:mt-10"
-        alt=""
+        alt="Sudhajal"
         width={5}
         height={5}
       />

@@ -49,7 +49,7 @@ const SearchHeader: React.FC<SearchHeaderProps> = ({
 
       <img
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/c97949c4d10d7152146d7a83baa8e41705d980512479774dc7b82e626deb8f7d?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37"
-        alt="Additional sorting options"
+        alt="Additional sorting options Sudhajal"
         className="object-contain shrink-0 w-16 rounded-none aspect-[2]"
       />
     </div>

@@ -35,7 +35,7 @@ const UserActions: React.FC = () => {
               src="/search.svg"
               width={24}
               height={24}
-              alt="Search icon"
+              alt="Search icon Sudhajal"
             />
           </button>
         ) : (
@@ -88,7 +88,7 @@ const UserActions: React.FC = () => {
       >
         <Image
           src="/wishlist.svg"
-          alt="Additional action icon"
+          alt="Additional action icon Sudhajal"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
           width={24}
           height={24}
@@ -103,7 +103,7 @@ const UserActions: React.FC = () => {
         <Image
           loading="lazy"
           src="/cart.svg"
-          alt="User action icon"
+          alt="User action icon Sudhajal"
           className="object-contain self-stretch my-auto w-6 aspect-[0.96]"
           width={24}
           height={24}

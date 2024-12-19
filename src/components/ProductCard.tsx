@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           </Link>
           
           {/* Add to Cart Button */}
-          <button
+          <a href="https://amzn.to/3VJnpso"><button
             aria-label="Add this product to cart"
             className="flex justify-center items-center px-8 py-3.5 mt-2.5 w-full border-2 border-blue-700 border-solid min-h-[51px] rounded-[31px] text-zinc-800 max-md:px-5"
             onClick={() => {
@@ -58,14 +58,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
             <Image
               loading="lazy"
               src="/cart.svg"
-              alt="Cart icon"
+              alt="Cart icon Sudhajal"
               className="object-contain shrink-0 self-stretch my-auto aspect-[1.04] w-[25px]"
               width={5}
               height={5}
             />
             <div className="flex shrink-0 self-stretch my-auto bg-white bg-opacity-0 h-[22px] w-[5px]" />
             <span>Add To Cart</span>
-          </button>
+          </button></a>
         </div>
       </div>
     </div>

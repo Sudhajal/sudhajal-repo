@@ -18,7 +18,7 @@ const ProductInfo: React.FC = () => {
               loading="lazy"
               src="/rightarrow.svg"
               className="object-contain shrink-0 my-auto w-5 aspect-square"
-              alt=""
+              alt="Sudhajal"
               width={5}
               height={5}
             />
@@ -34,7 +34,7 @@ const ProductInfo: React.FC = () => {
                 loading="lazy"
                 src="/rightarrow.svg"
                 className="object-contain shrink-0 my-auto w-5 aspect-square"
-                alt=""
+                alt="Sudhajal"
                 width={5}
                 height={5}
               />
@@ -55,7 +55,7 @@ const ProductInfo: React.FC = () => {
     loading="lazy"
     src="/product1.png"
     className="object-contain"
-    alt="Main product img"
+    alt="Main product img Sudhajal"
     fill // Use fill layout to cover the parent container
   />
 </div>
@@ -66,7 +66,7 @@ const ProductInfo: React.FC = () => {
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
-                  alt="Product thumbnail 1"
+                  alt="Product thumbnail 1 Sudhajal"
                   width={5}
                   height={5}
                 />
@@ -74,7 +74,7 @@ const ProductInfo: React.FC = () => {
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
-                  alt="Product thumbnail 2"
+                  alt="Product thumbnail 2 Sudhajal"
                   width={5}
                   height={5}
                 />
@@ -82,7 +82,7 @@ const ProductInfo: React.FC = () => {
                   loading="lazy"
                   src="/blur.png"
                   className="object-contain shrink-0 rounded-md aspect-[1.01] shadow-[0px_1px_6px_rgba(0,173,237,0.3)] w-[99px]"
-                  alt="Product thumbnail 3"
+                  alt="Product thumbnail 3 Sudhajal"
                   width={5}
                   height={5}
                 />
@@ -109,7 +109,7 @@ const ProductInfo: React.FC = () => {
                     loading="lazy"
                     src="/cart.svg"
                     className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
-                    alt=""
+                    alt="Sudhajal"
                     width={5}
                     height={5}
                   />
@@ -125,7 +125,7 @@ const ProductInfo: React.FC = () => {
                         loading="lazy"
                         src="/star.svg"
                         className="object-contain shrink-0 self-stretch my-auto aspect-[4.88] w-[83px]"
-                        alt="Rating stars"
+                        alt="Rating stars Sudhajal"
                         width={83}
                         height={100}
                       />
@@ -137,7 +137,7 @@ const ProductInfo: React.FC = () => {
                     loading="lazy"
                     src="/line.svg"
                     className="object-contain shrink-0 self-stretch my-auto w-0"
-                    alt=""
+                    alt="Sudhajal"
                     width={5}
                     height={5}
                   />

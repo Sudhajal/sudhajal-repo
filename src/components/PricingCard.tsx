@@ -63,7 +63,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
               <Image
                 loading="lazy"
                 src={icon}
-                alt=""
+                alt="Sudhajal"
                 className="object-contain aspect-square items-center"
                 height={25}
                 width={25}

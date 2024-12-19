@@ -14,7 +14,7 @@ const Testimonial: React.FC = () => {
         <Image
           loading="lazy"
           src="/apostrophie.png"
-          alt="Quote icon"
+          alt="Quote icon Sudhajal"
           className="object-contain w-9 aspect-[1.5]"
           width={9}
           height={12}
@@ -35,7 +35,7 @@ const Testimonial: React.FC = () => {
           <Image
             loading="lazy"
             src="/sachin.jpeg"
-            alt="Sachin Bhosle"
+            alt="Sachin Bhosle Sudhajal"
             className="object-cover absolute inset-0 h-full w-full rounded-2xl"
             fill
             

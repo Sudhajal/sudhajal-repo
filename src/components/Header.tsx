@@ -7,9 +7,9 @@ const Header: React.FC = () => {
     <div className="flex flex-col justify-center max-w-full font-bold text-center min-h-[951px] text-zinc-800 w-[1029px]">
       <div className="flex gap-2.5 items-end w-full max-md:max-w-full">
         <div className="flex flex-col justify-center min-w-[240px] w-[547px] max-md:max-w-full">
-          <h1 className="text-3xl max-md:max-w-full">
+          <h2 className="text-3xl max-md:max-w-full">
             A service may be all what you need (Our Motive)
-          </h1>
+          </h2>
           <div className="flex flex-col items-start mt-9 w-full text-base leading-6 text-black max-md:max-w-full">
             <p className="max-md:max-w-full">
               Water is not simply a drinkable element; it is also an essential
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
         <Image
           loading="lazy"
           src="Color.png"
-          alt="Water purification system"
+          alt="Water purification system Sudhajal"
           className="object-contain aspect-[1.18] min-w-[240px] w-[545px] max-md:max-w-full"
           width={545}
           height={454}

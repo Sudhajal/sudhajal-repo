@@ -9,7 +9,7 @@ const ServiceFeatures: React.FC = () => {
       <Image
         loading="lazy"
         src="buble.png"
-        alt="Water science illustration"
+        alt="Water science illustration Sudhajal"
         className="object-contain shrink-0 self-stretch my-auto aspect-[0.38] w-[153px]"
         width={153}
         height={5}
