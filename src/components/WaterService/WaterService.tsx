@@ -47,20 +47,21 @@ const WaterService: React.FC = () => {
     <div id="waterservice" className="bg-white flex flex-col p-4">
       {/* Main Header Section */}
       <div className="flex flex-col lg:flex-row justify-center items-center text-center text-zinc-800">
-        <div className="flex gap-2.5 items-end w-full lg:w-[50%]">
+        <div className="flex gap-2.5 items-end w-full lg:w-[70%] my-12">
           <div className="flex flex-col justify-center min-w-[240px] w-full lg:w-[547px]">
             <h1 className="text-3xl lg:text-4xl">
-              <span>A service may be all what you need (</span>
+              <span>A Service That Meets Your Needs (</span>
               <span className="leading-10">Our Motive</span>
               <span>)</span>
             </h1>
             <TextBlock
               content={[
-                "Water is not simply a drinkable element; it is also an essential component of our lives. Sudhajal, The Samruddhi Sales Corporation's dedication, has opted to prioritize 'servicing' in this industry.",
-               " Pure water does more than quench your thirst—it fuels every function in your body. But the secret isn't just in how much you drink; it's in the quality of the water itself. With the right purification at home, you unlock a hidden essence, ensuring that every sip and every meal nourishes you in ways you might not even realize."
+                "Water is more than just a drinkable element—it's the essence of life itself. At Sudhajal, a trusted venture of Samruddhi Sales Corporation, we are dedicated to prioritizing 'service' in the water purification industry.",
+               "Pure water doesn’t just quench your thirst; it powers every vital function in your body. The true secret to well-being lies not just in how much water you consume, but in the quality of that water. With advanced purification systems at home, you ensure that every sip and every meal enriches your health, delivering nourishment in ways you might not even realize.",
+               "At Sudhajal, we are committed to ensuring access to safe, clean, and high-quality water through reliable services and solutions, because your health deserves nothing less."
               ]}
             />
-            <Link href="#contactform">
+            <Link href="https://www.instagram.com/direct/t/17846334732309544">
               <Button text="Connect Us" />
             </Link>
           </div>
@@ -142,20 +143,22 @@ const WaterService: React.FC = () => {
             height={128}
           />
         </div>
-        <div className="flex flex-col w-full lg:w-6/12 mt-6 lg:mt-0">
+        <div className="flex flex-col w-full lg:w-2/3 mt-6 lg:mt-0">
           <div className="flex flex-wrap justify-center items-center">
             <div className="flex flex-col justify-center w-full max-w-[503px] text-left">
               <h2 className="text-2xl lg:text-3xl leading-tight">
-                Why to know water science?
+              Why Understanding Water Science Matters
               </h2>
               <TextBlock
                 content={[
-                  "We often trust popular brands because we believe they maintain a certain standard—like offering water with a TDS (Total Dissolved Solids) of 54 or higher, which many associate with a balanced mineral content. You might notice that mineral water at airports is pricier than regular bottles, reflecting the perceived value of those essential nutrients. Water is more than just a thirst-quencher; it's a complex element carrying vital minerals bound to H2O by ionized bonds, directly impacting your body's needs. In short, the right TDS balance can be the difference between thriving health and potential issues."
+                  "We often trust popular brands, assuming they maintain high standards, such as providing water with a TDS (Total Dissolved Solids) level of 54 or higher. This TDS level is often associated with a balanced mineral content that supports overall health. For instance, the higher price of mineral water at airports reflects the perceived value of these essential nutrients.",
+                  "But water is more than just a thirst-quencher—it's a vital element carrying essential minerals bound to H₂O by ionized bonds, directly impacting your body’s overall function. The right TDS balance is crucial, as it can mean the difference between optimal health and potential deficiencies.",
+                  
                 ]}
               />
               <div className="flex gap-9 justify-center items-center mt-6 lg:mt-9 text-sm tracking-wide">
-                <div className="self-stretch">Want to know more about water?</div>
-                <Link href="#contactform">
+                <div className="self-stretch">Want to know more about water science?</div>
+                <Link href="https://www.instagram.com/direct/t/17846334732309544">
                   <Button text="Connect Us" />
                 </Link>
               </div>

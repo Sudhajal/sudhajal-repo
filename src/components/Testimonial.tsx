@@ -21,7 +21,7 @@ const Testimonial: React.FC = () => {
           />
         <div className="flex flex-col mt-8">
           <blockquote className="text-xl font-medium text-neutral-800">
-            "People now recognise that having a good service means that something happens as a result."
+            "People Now Realize the True Value of Good Service"
           </blockquote>
           <p className="mt-4 text-base leading-7 text-stone-500">
             "I've been using this water purifier service for over 5 years, and I'm very happy. The team is prompt, professional, and always ensures my purifier is functioning perfectly. The water quality has improved drastically, and I feel much safer knowing my family is drinking clean, pure water. Highly recommend their services!"

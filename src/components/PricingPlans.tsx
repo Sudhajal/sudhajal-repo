@@ -71,11 +71,11 @@ const PricingPlans: React.FC = () => {
     <div id="pricingplans" className="flex flex-col items-center px-6 md:px-28 py-12 mt-2.5 w-full bg-white rounded max-md:max-w-full">
       <div className="flex flex-col justify-center max-w-full text-center w-full md:w-[472px]">
         <h2 className="text-3xl font-bold">
-          <span className="text-zinc-900">Powerful service features for </span>
-          <span>Domestic services</span>
+          <p><span className="text-zinc-900 text-4xl my-3">Key Features of Our </span></p>
+          <p><span className="text-blue-700">Domestic services</span></p>
         </h2>
         <p className="self-center mt-3.5 text-lg text-zinc-900">
-          Choose a plan that's right for you
+          Choose a plan that&apos;s right for you
         </p>
       </div>
       <div className="flex flex-wrap gap-6 justify-center mt-12 max-w-full w-full md:w-[1033px] max-md:mt-10">

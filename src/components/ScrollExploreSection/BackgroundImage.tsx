@@ -9,7 +9,6 @@ const BackgroundImage: React.FC<BackgroundVideoProps> = ({ src }) => {
     <video
       autoPlay
       loop
-    
       playsInline
       className="object-cover absolute inset-0 w-full h-full"
     >

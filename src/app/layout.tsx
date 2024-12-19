@@ -9,7 +9,7 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Sudhajal",
-  description: "",
+  description: "Sudhajal offers reliable and affordable water purifier AMC services in Nashik. Specializing in repair, maintenance, and servicing for top brands, we ensure uninterrupted access to safe and clean water for homes and businesses",
 };
 
 export default function RootLayout({

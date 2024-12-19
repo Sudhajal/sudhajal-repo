@@ -9,9 +9,9 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "Home", href: "/#home", isActive: true },
+  { label: "Home", href: "/", isActive: true },
   { label: "Service Plans", href: "/#pricingplans", isActive: false },
-  { label: "Products", href: "/product", isActive: false },
+  { label: "About Us", href: "/about", isActive: false },
   { label: "Connect Us", href: "/#contactform", isActive: false },
 ];
 

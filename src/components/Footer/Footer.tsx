@@ -29,7 +29,7 @@ const Footer: React.FC<FooterProps> = ({
   links,
 }) => {
   return (
-    <footer className="flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center w-full text-black bg-white min-h-[219px] shadow-[0px_-3px_21px_rgba(0,0,0,0.3)] ">
+    <footer className="flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center w-full text-black bg-white min-h-[219px] shadow-[0px_-3px_21px_rgba(0,0,0,0.3)] pt-[3%]">
       {/* Logo Section */}
       <Logo
         src={logoSrc}
@@ -60,7 +60,7 @@ const Footer: React.FC<FooterProps> = ({
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="w-full text-center py-5 text-lg text-white bg-black">
+      <div className="w-full text-center py-2 mt-12 text-lg text-white bg-black">
         All Rights Reserved
       </div>
     </footer>
