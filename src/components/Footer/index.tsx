@@ -6,8 +6,8 @@ const FooterWrapper: React.FC = () => {
   const footerProps = {
     logoSrc:
       "/Group 7610.png",
-    companyName: "Sudhajal ",
-    companyHandle:"Sudhajal - Samruddhi Sales Corp.",
+    companyName: "sudhajal ",
+    companyHandle:"sudhajal - Samruddhi Sales Corp.",
     tagline: "The Epitone of purity",
 
     address:
