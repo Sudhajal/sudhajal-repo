@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import ContactInfo from "./ContactInfo";
 import LinkSection from "./LinkSection";
+import { Url } from "next/dist/shared/lib/router/router";
 
 interface FooterProps {
   logoSrc: string;
@@ -34,7 +35,6 @@ const Footer: React.FC<FooterProps> = ({
       <Logo
         src={logoSrc}
         companyName={companyName}
-       
         tagline={tagline}
       />
 
@@ -55,7 +55,7 @@ const Footer: React.FC<FooterProps> = ({
         />
 
         {/* Link Sections */}
-        <LinkSection title="Get to know us" links={links.getToKnow} />
+        <LinkSection title="Get to know us" links={links.getToKnow}  />
         <LinkSection title="Customer support" links={links.customerSupport} />
       </div>
 
