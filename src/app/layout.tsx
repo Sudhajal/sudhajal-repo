@@ -8,8 +8,8 @@ import Header from "@/components/Header/Header";
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Sudhajal Water Purifier Services",
-  description: "Sudhajal offers affordable AMC services in Nashik, specializing in water purifier repair, maintenance, and servicing for homes and businesses.",
+  title: "Sudhajal - Affordable Water Purifier AMC Services in Nashik",
+  description: "Get reliable water purifier repair, maintenance & AMC services for top brands in Nashik. Contact Sudhajal today for clean, safe water!",
 };
 
 export default function RootLayout({
