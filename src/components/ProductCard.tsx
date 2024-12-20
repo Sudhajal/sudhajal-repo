@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           </Link>
           
           {/* Add to Cart Button */}
-          <a href="https://amzn.to/3VJnpso"><button
+          <a href="https://amzn.to/4gqgk8d"><button
             aria-label="Add this product to cart"
             className="flex justify-center items-center px-8 py-3.5 mt-2.5 w-full border-2 border-blue-700 border-solid min-h-[51px] rounded-[31px] text-zinc-800 max-md:px-5"
             onClick={() => {

@@ -11,7 +11,7 @@ const page = () => {
   </h1>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    At Sudhajal, we are more than just a service provider—we are your partner in ensuring the health and safety of your loved ones. A proud initiative of <strong>Samruddhi Sales Corporation</strong>, we specialize in offering comprehensive <a href="https://amzn.to/4iIgdXh"><span className="text-blue-700">water purifier AMC services in Nashik</span></a>, along with expert repair and maintenance solutions tailored to meet the unique needs of every household and business.
+    At Sudhajal, we are more than just a service provider—we are your partner in ensuring the health and safety of your loved ones. A proud initiative of <strong>Samruddhi Sales Corporation</strong>, we specialize in offering comprehensive <a href="https://amzn.to/49ONyfd"><span className="text-blue-700">water purifier AMC services in Nashik</span></a>, along with expert repair and maintenance solutions tailored to meet the unique needs of every household and business.
   </p>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
