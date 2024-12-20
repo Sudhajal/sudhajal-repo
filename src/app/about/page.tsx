@@ -11,11 +11,11 @@ const page = () => {
   </h1>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    At Sudhajal, we are more than just a service provider—we are your partner in ensuring the health and safety of your loved ones. A proud initiative of <strong>Samruddhi Sales Corporation</strong>, we specialize in offering comprehensive <a href="https://amzn.to/4iJiIZh"><span className="text-blue-700">water purifier AMC services in Nashik</span></a>, along with expert repair and maintenance solutions tailored to meet the unique needs of every household and business.
+    At Sudhajal, we are more than just a service provider—we are your partner in ensuring the health and safety of your loved ones. A proud initiative of <strong>Samruddhi Sales Corporation</strong>, we specialize in offering comprehensive <a href="https://amzn.to/4iIgdXh"><span className="text-blue-700">water purifier AMC services in Nashik</span></a>, along with expert repair and maintenance solutions tailored to meet the unique needs of every household and business.
   </p>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    Our goal is simple: to provide you with uninterrupted access to safe, clean, and <a className='font-semibold' href='https://amzn.to/3DnoLTa'>pure water</a>. We understand that water is the cornerstone of life, and its quality has a direct impact on your health and well-being. With our focus on <a href='https://amzn.to/3BBXmfE'><span className="text-blue-700">quality and reliability</span></a>, we strive to deliver the <a href='https://amzn.to/4iKe8tE'><span className="text-blue-700">best AMC packages for water purifiers</span></a>, ensuring that your water purifier works efficiently year-round without any hassle.
+    Our goal is simple: to provide you with uninterrupted access to safe, clean, and <a className='font-semibold' href='https://amzn.to/3ZNeE1l'>pure water</a>. We understand that water is the cornerstone of life, and its quality has a direct impact on your health and well-being. With our focus on <a href='https://amzn.to/49QaVoI'><span className="text-blue-700">quality and reliability</span></a>, we strive to deliver the <a href='https://amzn.to/3DmEF0f'><span className="text-blue-700">best AMC packages for water purifiers</span></a>, ensuring that your water purifier works efficiently year-round without any hassle.
   </p>
 
   <h2 className="text-2xl font-semibold text-blue-700 mt-6 mb-4">
@@ -27,15 +27,15 @@ const page = () => {
   </p>
 
   <ul className="list-disc list-inside text-gray-700 mb-4">
-    <li>Comprehensive <a href='https://amzn.to/3OYsCJ0'><span className="text-blue-700">Annual Maintenance Contracts (AMC)</span></a> designed for maximum value and affordability.</li>
-    <li>Expert servicing and repairs for a wide range of water purifier brands, including <a href='https://amzn.to/3ZLDsqy'><span className="text-blue-700">Kent, Aquaguard, Pureit, Livpure, Tata Swach, and more</span></a>.</li>
+    <li>Comprehensive <a href='https://amzn.to/41Iq60U'><span className="text-blue-700">Annual Maintenance Contracts (AMC)</span></a> designed for maximum value and affordability.</li>
+    <li>Expert servicing and repairs for a wide range of water purifier brands, including <a href='https://amzn.to/4fnZDJr'><span className="text-blue-700">Kent, Aquaguard, Pureit, Livpure, Tata Swach, and more</span></a>.</li>
     <li>Quick and reliable solutions to ensure uninterrupted access to pure water.</li>
-    <li>Highly trained technicians with expertise in both  <a href='https://amzn.to/3BIRSje'><span className="text-blue-700">domestic and commercial water purifiers</span></a>.</li>
+    <li>Highly trained technicians with expertise in both  <a href='https://amzn.to/41FA6It'><span className="text-blue-700">domestic and commercial water purifiers</span></a>.</li>
     <li>Personalized maintenance plans to suit your specific requirements and budget.</li>
   </ul>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    Our services are backed by years of industry experience and a customer-centric approach. Whether you are looking for <a href='https://amzn.to/40021la'><span className="text-blue-700">affordable AMC for water purifiers</span></a> or professional repairs for a malfunctioning unit, Sudhajal is here to help.
+    Our services are backed by years of industry experience and a customer-centric approach. Whether you are looking for <a href='https://amzn.to/4folvnL'><span className="text-blue-700">affordable AMC for water purifiers</span></a> or professional repairs for a malfunctioning unit, Sudhajal is here to help.
   </p>
 
   <h2 className="text-2xl font-semibold text-blue-700 mt-6 mb-4">
@@ -85,11 +85,11 @@ const page = () => {
   </h2>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    As <a href='https://amzn.to/4fosJZc'><span className="text-blue-700">Nashik water purifier experts</span></a>, we understand the unique water challenges faced by residents and businesses in the area. Our solutions are tailored to address these challenges, ensuring that every customer benefits from safe, high-quality water. From regular maintenance to emergency repairs, we are here to keep your water purifiers running smoothly.
+    As <a href='https://amzn.to/3DzMJum'><span className="text-blue-700">Nashik water purifier experts</span></a>, we understand the unique water challenges faced by residents and businesses in the area. Our solutions are tailored to address these challenges, ensuring that every customer benefits from safe, high-quality water. From regular maintenance to emergency repairs, we are here to keep your water purifiers running smoothly.
   </p>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-    Choose Sudhajal for <a href='https://amzn.to/41I69r4'><span className="text-blue-700">trusted AMC services in Nashik</span></a> and experience the difference that expert care and customer-first service can make. Your satisfaction is our top priority, and we are dedicated to exceeding your expectations at every step.
+    Choose Sudhajal for <a href='https://amzn.to/41J5ohv'><span className="text-blue-700">trusted AMC services in Nashik</span></a> and experience the difference that expert care and customer-first service can make. Your satisfaction is our top priority, and we are dedicated to exceeding your expectations at every step.
   </p>
 
   <div className="text-center mt-8">
